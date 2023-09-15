@@ -1,0 +1,14 @@
+div{
+	height: 40px;
+	width: 100px;
+	background: black;
+}
+.col{
+	background: blue;
+}
+
+.parent{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
