@@ -134,8 +134,16 @@ nav a {
 	border-radius: 10px;
 	height: 200px;
 	width: 200px;
+	background-image: url("/assets/Untitled.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .team{
+}
+
+.teams{
 	display: flex;
+	align-items: center;
 }
