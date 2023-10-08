@@ -87,6 +87,7 @@ small, .text_small {font-size: 0.8rem;}html {font-size: 100%;} /*16px*/
 header {
     display: flex;
     justify-content:space-between;
+    align-items: center;
 }
 a:link {
     text-decoration: none;
@@ -132,18 +133,40 @@ nav a {
 .team-member{
 	border: 1px solid black;
 	border-radius: 10px;
-	height: 200px;
-	width: 200px;
-	background-image: url("/assets/Untitled.jpg");
-	background-attachment: fixed;
+	height: 150px;
+	width: 150px;
+	background-size: 150px 150px;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	margin: 10px;
+	color: white;
+}
+.team-member h6{
+	padding: 10px;
 }
 
+.team-member-pic1{
+	background-image: url("/assets/pic1.jpg");
+}
+
+.team-member-pic2{
+	background-image: url("/assets/pic2.jpg");
+}
+
+.team-member-pic3{
+	background-image: url("/assets/pic3.jpg");
+}
+
+.team-member-pic4{
+	background-image: url("/assets/pic4.jpg");
+}
+
+
 .team{
+	display: flex;
+	align-items: center;
 }
 
 .teams{
 	display: flex;
 	align-items: center;
-}
+}	
